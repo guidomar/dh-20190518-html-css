@@ -1,0 +1,23 @@
+header {
+  width: 80%;
+  margin: 0 auto;
+  background-color: orange;
+}
+
+footer {
+  width: 70%;
+  margin: 0 auto;
+  background-color: violet;
+  padding: 5px;
+}
+
+article {
+  width: 20%;
+  margin: 2.5%;
+  background-color: green;
+  float: left;
+}
+
+section {
+  overflow: hidden;
+}
