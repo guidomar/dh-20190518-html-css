@@ -1,0 +1,19 @@
+input:hover {
+  background-color: orange;
+}
+
+input:focus {
+  background-color: violet;
+}
+
+p:nth-child(2) {
+  background-color: green;
+}
+
+p:nth-child(odd) {
+  background-color: blue;
+}
+
+p:nth-child(even) {
+  background-color: red;
+}

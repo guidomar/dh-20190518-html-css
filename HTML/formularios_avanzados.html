@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>TITULO</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <h1>
+      Formularios
+    </h1>
+    <form class="" action="index.html" method="post">
+      <p>
+        <label for="nombre">
+          Nombre:
+        </label>
+        <input id="nombre" type="text" name="nombre" value="" placeholder="Ingrese su nombre aqui" required>
+      </p>
+      <p>
+        <label for="email">
+          Email:
+        </label>
+        <input id="email" type="email" name="email" value="" required>
+      </p>
+      <p>
+        <label for="pass">
+          Contrasena:
+        </label>
+        <input id="pass" type="password" name="pass" value="">
+      </p>
+      <p>
+        <label for="cine">Ya asistio al cine de este ano?</label>
+        <br>
+        <input type="radio" name="cine" value="s"> Si
+        <br>
+        <input type="radio" name="cine" value="n" checked> No
+      </p>
+      <p>
+        <label for="genero">Seleccione sus generos preferidos</label>
+        <br>
+        <input type="checkbox" name="genero" value="d"> Drama
+        <br>
+        <input type="checkbox" name="genero" value="c" checked> Comedia
+        <br>
+        <input type="checkbox" name="genero" value="a" checked> Aventura
+        <br>
+        <input type="checkbox" name="genero" value="t"> Terror
+      </p>
+      <p>
+        <label for="pais">Pais:</label>
+        <select class="" name="pais" id="pais">
+          <option value="ar">
+            Argentina
+          </option>
+          <option value="br">
+            Brazil
+          </option>
+          <option value="co">
+            Colombia
+          </option>
+        </select>
+      </p>
+      <p>
+        <label for="com">Comentarios</label>
+        <textarea id="com" name="com" rows="8" cols="80">
+          Ingrese aqui su texto.
+
+        </textarea>
+      </p>
+      <p>
+        <!-- <input type="submit" name="" value="Enviar"> -->
+        <button type="submit" name="button">
+          Enviar
+        </button>
+        <button type="reset" name="button">
+          Reiniciar
+        </button>
+      </p>
+
+    </form>
+
+  </body>
+</html>
